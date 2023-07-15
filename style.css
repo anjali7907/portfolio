@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Caveat&family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(213, 206, 206);
+    /* width: 16vw; */
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 37px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 35px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 100vw;
+}
+.infoContainer{
+    /* background-color: rgb(255, 0, 204); */
+    height: 60vh;
+    width: 75vw;
+    margin: 105px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Agdasima', sans-serif;
+}
+
+
+.container{
+    display: flex;
+}
+/* .devPic {
+    /* border: 2px solid black; */
+    /* height: 60vh;
+    width: 30vw;
+    border-radius: 450px;
+    background-image: url(images/my_photo.jpeg);
+    background-position: 52%;
+    background-size: 350px;
+    margin: 55px;
+    background-repeat: no-repeat;
+} */ 
+
+.devPic img{
+    height:60vh;
+    width: 27vw;
+    border: 2px solid black;
+}
+.hello{
+    font-size: 55px;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.About{
+    font-size: 30px;
+    font-family: 'Agdasima', sans-serif;
+}
+.About p{
+    font-size: 20px;
+    font-family: 'Agdasima', sans-serif;
+}
+.buttons button{
+    padding: 12px 14px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(99, 99, 216);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: rgb(99, 99, 216);
+    background-color: white ;
+}
+.buttons{
+    margin-top: 36px ;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* STYLING CONTACT ME PAGE */
+.contactForm{
+    padding: 100px;
+    font-family: 'Roboto Mono', monospace;
+    /* border: 2px solid black; */
+    width: 60vw;
+    margin-left: 100px;
+
+}
+.contactForm h1{
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+.contactForm div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+    width: 26vw;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    color: blue;
+    font-size: 10px;
+    margin: -6px 5px;
+    padding: 2px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 30px;
+    margin: 5px 0;
+}
+.btn{
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(99, 99, 216);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(99, 99, 216);
+    background-color: white ;
+}
+
+/* blog css */
+.blogContainer{
+    margin-left: 90px;
+}
+.blogItem{
+    margin: 20px;
+    font-family: 'Agdasima', sans-serif;
+}
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+}
+.blogContainer h1{
+    font-family: 'Roboto Mono', monospace;
+    margin: 25px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+   margin-left: 125px; 
+}
+
+@media (max-width: 1000px){
+    .devPic{
+        display: none;
+    }
+    
+}
+
+/* my intro css */
+.introContainer{
+    border: 2px solid black;
+    padding: 80px;
+    margin-left: 92px;
+    background-color: rgb(217, 217, 249);
+    border-radius: 20px;
+    width: 50vw;
+    margin-top: 55px;
+    display: flex;
+    
+}
+
+.introContainer p{
+    margin-top: 75px;
+    
+}
+
+
